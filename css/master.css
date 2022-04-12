@@ -1,0 +1,161 @@
+body {
+  font-family: Ubuntu, sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  /* width: 100vw; */
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #FFE3D8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* width: 100vw; */
+  margin: 0.5rem 0 0.25rem 0;
+  font-weight: bold;
+}
+
+.odd-section {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.content {
+  margin: 0 auto 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: fixed;
+  align-content: flex-end;
+  justify-content: center;
+  width: 100vw;
+  height: 5rem;
+  background-color: #BBBBBB;
+  padding: 1rem 3rem 0 0;
+  z-index: 10;
+}
+
+.nav-image {
+  height: 4rem;
+  padding-left: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.4rem;
+  font-family: "Ubuntu";
+  /* font-weight: bold; */
+  color: black;
+}
+
+/* Welcome Section */
+#welcome-section {
+  height: 100vh;
+}
+
+h1 {
+  font-family: Sacramento, Ubuntu, sans-serif;
+  font-size: 6rem;
+}
+
+hr {
+  border-style: dotted;
+  border-top: black;
+  border-width: 0.5rem;
+  width: 35%;
+}
+
+.heading {
+  color: #03506F;
+}
+
+.about {
+  display: inline-block;
+  width: 30rem;
+}
+
+/* Project Section */
+.even-section {
+  background-color: #03506F;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.project-title {
+  padding-top: 3rem;
+  color: #FFE3D8;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem 2rem;
+  padding: 2rem 4rem;
+}
+
+.imgur-embed-pub {
+  width: 100%;
+  /* height: 100px; */
+}
+
+.project-tile {
+  background-color: red;
+}
+
+/* Contact Section */
+#contact {
+  height: 15vh;
+  padding: 8rem;
+}
+
+table {
+  margin: 0 auto 0 auto;
+}
+
+td {
+  padding: 0 1rem 0 2rem;
+}
+
+.fab, .far {
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+.fa-gitlab {
+  color: orange;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-github {
+  color: #252129;
+}
+
+.fa-envelope {
+  color: #03506F;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  margin: auto 0 0 0;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .navbar {
+    align-content: center;
+  }
+
+  #project-tile {
+    display: block;
+  }
+}
